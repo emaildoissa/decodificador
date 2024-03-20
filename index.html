@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/estilo.css">
+
+
+    <title>Decodificador</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="conteudo__titulo">Decodificador</h1>
+        <h2 class="conteudo__subtitulo">Challenges ONE - Oracle Next Education - Alura</h2>
+    </header>
+    <main>
+        <section class="conteudo">
+            <div class="conteudo__texto__palavra">
+                <a class="conteudo__texto__palavra">Palavra-Chave:
+                    <input type="text" maxlength="12" class="conteudo__input__palavra">
+                </a>
+                
+            </div>
+            <div class="conteudo__caixas">
+                <textarea class="conteudo__texto" placeholder="Digite seu texto"></textarea>
+                <div class="conteudo__saida">
+                    
+                    <p class="conteudo__tituloPadrao"><strong>Nenhuma mensagem encontrada.<br>
+                        </strong> Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+                <div >
+                <button class="conteudo__botoes__copiar" onclick="copiar()">Copiar</button>
+            </div>
+            </div>
+             <div class="conteudo__botoes">
+                <button class="conteudo__botoes__codificar" onclick="criptografar()">Criptografar</button>
+                <button class="conteudo__botoes__descodificar" onclick="descriptografar()">Descriptografar</button>
+            </div>
+
+            </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+
+
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
